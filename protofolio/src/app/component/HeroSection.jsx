@@ -21,13 +21,15 @@ const HeroSection = () => {
                         1000,
                         'Mobile Developer',
                         1000,
+                        'IT Support/Hardware',
+                        1000,
                     ]}
                     wrapper="span"
                     speed={50}
                     repeat={Infinity}
                     />
                 </h1>
-                <p className='text-[#ABD7BE] text-base sm:text-lg mb-6 lg:text-xl'>
+                <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, necessitatibus. Animi at, rerum expedita, ad, facilis tenetur saepe labore officiis voluptas iste perspiciatis obcaecati soluta deserunt facere. Sequi, vero accusantium?
                 </p>
                 <div>
