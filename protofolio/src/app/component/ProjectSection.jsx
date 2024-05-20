@@ -6,8 +6,9 @@ const projectData = [
         id: 1,
         title: "Flutter Women Center Mobile App",
         description: "Menggunakan pemograman Dart dengan framework Flutter yang mendalam dan bekerja dalam team untuk membuat aplikasi Women Center aplikasi Khusus wanita untuk jejang karir dan konsultasi mengenai mental healt",
-        image: "/images/project/p1.jpeg",
-        tag: ["All", "Web"]
+        image: "/images/projects/p1.jpg",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Capstone-Tim-14/women-center-mobile"
     }
 ]
 
@@ -25,6 +26,7 @@ const ProjectSection = () => {
                     description = {project.description}
                     imgUrl = {project.image}
                     tags = {project}
+                    gitUrl={project.gitUrl}
                 />
             ))}
         </div>
