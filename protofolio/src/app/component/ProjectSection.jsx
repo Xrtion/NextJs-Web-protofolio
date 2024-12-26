@@ -17,7 +17,15 @@ const projectData = [
         image: "/images/projects/p2.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Xrtion/Absensi-berbasis-QR"
-    }
+    },
+    {
+        id: 3,
+        title: "Portofolio Web",
+        description: "Pembuatan Project Portofolio dengan menggunakan Next js",
+        image: "/images/projects/p2.png",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Xrtion/Absensi-berbasis-QR"
+    },
 ]
 
 const ProjectSection = () => {
