@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import whatsappIcon from "../../../public/whatsapp-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -49,22 +50,19 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
-        </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://github.com/Xrtion">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/david-liem-0114a6233/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          </Link>
+          <Link href="https://api.whatsapp.com/send/?phone=%2B6282282998649&text&type=phone_number&app_absent=0">
+            <Image src={whatsappIcon} alt="Linkedin Icon" />
           </Link>
         </div>
       </div>
-      <div>
+      {/* <div>
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">
             Email sent successfully!
@@ -125,7 +123,7 @@ const EmailSection = () => {
             </button>
           </form>
         )}
-      </div>
+      </div> */}
     </section>
   );
 };

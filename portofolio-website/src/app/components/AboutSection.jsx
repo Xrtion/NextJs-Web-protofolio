@@ -9,12 +9,11 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>PHP(Laravel)</li>
+        <li>Dart(flutter)</li>
+        <li>React Native</li>
+        <li>Next JS</li>
+        <li>HardWare Pc</li>
       </ul>
     ),
   },
@@ -23,8 +22,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li>Universitas Dinamika Bangsa</li>
+        <li>Alterra Academy</li>
       </ul>
     ),
   },
@@ -33,8 +32,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>AWS Cloud Practitioner</li>
-        <li>Google Professional Cloud Developer</li>
+        <li>TOEFL</li>
+        <li>CERTIFICATE MSIB OF GRADUATION</li>
       </ul>
     ),
   },
@@ -53,16 +52,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-images.jpg" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+          Saya David Liem, Fresh Graduate dari Universitas Dinamika Bangsa Jambi yang memiliki antusiasme tinggi terhadap dunia Frontend Development dan Backend Development.Sejak awal perjalanan akademis saya, saya selalu bersemangat untuk memahami dan mengikuti perkembangan teknologi terkini. Keahlian saya di Flutter memungkinkan saya merancang dan mengembangkan antarmuka pengguna yang menarik untuk aplikasi seluler. Selain itu, pengetahuan saya tentang Laravel memberi saya dasar yang kuat dalam pengembangan backend, memastikan integrasi yang mulus antara frontend dan backend.Saya selalu mencari peluang untuk belajar dan berkontribusi pada proyek yang menantang. Tentu saja saya juga siap belajar dengan framework yang berbeda. Saat ini saya sedang belajar tentang React Js dan Kotlin serta Framework Framework yang populer.Saya berharap dapat terhubung dengan para profesional, mentor, dan individu yang berpikiran sama yang memiliki minat yang sama dengan saya terhadap Pengembangan Front-End.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
