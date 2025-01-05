@@ -32,6 +32,15 @@ const projectsData = [
     gitUrl: "https://github.com/Xrtion/Absensi-berbasis-QR",
     previewUrl: "/",
   },
+  {
+    id: 4,
+    title: "UI Blink It",
+    description: "Pembuatan UI Dengan Flutter",
+    image: "/images/projects/p3.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Xrtion/Flutter-Blinkit-clone",
+    previewUrl: "/",
+  },
   
 ];
 
